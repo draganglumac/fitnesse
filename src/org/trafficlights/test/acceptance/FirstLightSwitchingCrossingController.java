@@ -4,12 +4,14 @@ package org.trafficlights.test.acceptance;
  * Created by dragan on 03/07/2014.
  */
 
+import org.trafficlights.domain.CrossingValidator;
 import org.trafficlights.domain.LightState;
 
 public class FirstLightSwitchingCrossingController {
 
     LightState firstState;
     LightState secondState;
+    private CrossingValidator validator = new CrossingValidator();
 
     public void setFirstLight(LightState state) {
         firstState = state;
@@ -32,10 +34,13 @@ public class FirstLightSwitchingCrossingController {
     }
 
     public void switchFirstLight() {
-        if (! isValidLightStateConfiguration())
+        if (! validator.isValidConfiguration(firstState, secondState))
             warningConfiguration();
         else
             firstState = firstState.next();
+
+        if (! validator.isValidConfiguration(firstState, secondState))
+            warningConfiguration();
     }
 
     private void warningConfiguration() {
@@ -43,8 +48,4 @@ public class FirstLightSwitchingCrossingController {
         secondState = LightState.UNKNOWN;
     }
 
-    private boolean isValidLightStateConfiguration() {
-        return LightState.RED.equals(secondState) &&
-                !LightState.UNKNOWN.equals(firstState);
-    }
 }
