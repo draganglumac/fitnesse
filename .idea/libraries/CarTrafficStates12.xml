@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="CarTrafficStates1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/FitNesseRoot/TrafficLights/TrafficLightStates/CarTrafficStates/20140702085832.zip!/" />
+      <root url="jar://$PROJECT_DIR$/FitNesseRoot/TrafficLights/TrafficLightStates/CarTrafficStates/20140702095034.zip!/" />
+      <root url="jar://$PROJECT_DIR$/FitNesseRoot/TrafficLights/TrafficLightStates/CarTrafficStates/20140702085832~1.zip!/" />
+      <root url="jar://$PROJECT_DIR$/FitNesseRoot/TrafficLights/TrafficLightStates/CarTrafficStates/20140702090005.zip!/" />
+      <root url="jar://$PROJECT_DIR$/FitNesseRoot/TrafficLights/TrafficLightStates/CarTrafficStates/20140702093213.zip!/" />
+      <root url="jar://$PROJECT_DIR$/FitNesseRoot/TrafficLights/TrafficLightStates/CarTrafficStates/20140702093237.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
