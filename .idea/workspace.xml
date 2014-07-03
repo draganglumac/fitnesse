@@ -2,27 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="276032ba-f115-48da-bc1a-85fbb3b6a253" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/hamcrest-core-1.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/junit-4.11.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/20140702035902.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/20140702051244.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/CarTrafficStates.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/CarTrafficStates1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/trafficlights/test/acceptance/FirstLightSwitchingCrossingController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/trafficlights/domain/LightState.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/trafficlights/domain/LightStateEditor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/trafficlights/domain/LightStateEditorTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/trafficlights/domain/LightStateTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/RecentChanges.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/TrafficLightStates.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/trafficlights/test/acceptance/TrafficLights.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/TwoMinuteExample.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fitnesse.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/fitnesse_standalone.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FitNesseRoot/FrontPage/content.txt" afterPath="$PROJECT_DIR$/FitNesseRoot/FrontPage/content.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/trafficlights/test/acceptance/FirstLightSwitchingCrossingController.java" afterPath="$PROJECT_DIR$/src/org/trafficlights/test/acceptance/FirstLightSwitchingCrossingController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FitNesseRoot/ErrorLogs/TrafficLights/CrossingControl/TwoCarsCrossing/content.txt" afterPath="$PROJECT_DIR$/FitNesseRoot/ErrorLogs/TrafficLights/CrossingControl/TwoCarsCrossing/content.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FitNesseRoot/RecentChanges/content.txt" afterPath="$PROJECT_DIR$/FitNesseRoot/RecentChanges/content.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FitNesseRoot/TrafficLights/CrossingControl/TwoCarsCrossing/content.txt" afterPath="$PROJECT_DIR$/FitNesseRoot/TrafficLights/CrossingControl/TwoCarsCrossing/content.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="fitnesse.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,8 +55,8 @@
       <file leaf-file-name="FirstLightSwitchingCrossingController.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/org/trafficlights/test/acceptance/FirstLightSwitchingCrossingController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2791762" vertical-offset="328" max-vertical-offset="765">
-              <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.7597254" vertical-offset="118" max-vertical-offset="840">
+              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
               <folding>
                 <element signature="e#292#293#0" expanded="true" />
                 <element signature="e#326#327#0" expanded="true" />
@@ -82,8 +66,8 @@
                 <element signature="e#484#485#0" expanded="true" />
                 <element signature="e#523#524#0" expanded="true" />
                 <element signature="e#557#558#0" expanded="true" />
-                <element signature="e#921#922#0" expanded="true" />
-                <element signature="e#978#979#0" expanded="true" />
+                <element signature="e#586#587#0" expanded="true" />
+                <element signature="e#620#621#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -296,7 +280,7 @@
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/dragan/github/fitnesse/src/org/trafficlights/test/acceptance/TrafficLights.java" />
-    <property name="extract.method.default.visibility" value="private" />
+    <property name="extract.method.default.visibility" value="public" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -669,12 +653,12 @@
       <updated>1404289468757</updated>
       <workItem from="1404289473956" duration="1971000" />
       <workItem from="1404293079892" duration="32000" />
-      <workItem from="1404293157219" duration="8729000" />
+      <workItem from="1404293157219" duration="9171000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10732000" />
+    <option name="totallyTimeSpent" value="11174000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="22" width="1440" height="820" extended-state="6" />
@@ -836,8 +820,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/trafficlights/test/acceptance/FirstLightSwitchingCrossingController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2791762" vertical-offset="328" max-vertical-offset="765">
-          <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.7597254" vertical-offset="118" max-vertical-offset="840">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
           <folding>
             <element signature="e#292#293#0" expanded="true" />
             <element signature="e#326#327#0" expanded="true" />
@@ -847,8 +831,8 @@
             <element signature="e#484#485#0" expanded="true" />
             <element signature="e#523#524#0" expanded="true" />
             <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#921#922#0" expanded="true" />
-            <element signature="e#978#979#0" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
           </folding>
         </state>
       </provider>

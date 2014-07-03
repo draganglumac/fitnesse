@@ -1,0 +1,9 @@
+!contents -R2 -g -p -f -h
+
+
+!| scenario | invalid combination | first light || second light |
+| set first light | @firstLight |
+| set second light | @secondLight |
+| switch first light |
+| check | firstLight | yellow blink |
+| check | secondLight | yellow blink |
