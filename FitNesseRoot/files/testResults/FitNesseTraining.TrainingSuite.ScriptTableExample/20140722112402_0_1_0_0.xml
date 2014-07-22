@@ -1,0 +1,234 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20140630</FitNesseVersion>
+  <rootPath>FitNesseTraining.TrainingSuite.ScriptTableExample</rootPath>
+    <result>
+    <counts>
+      <right>1</right>
+      <wrong>4</wrong>
+      <ignores>0</ignores>
+      <exceptions>1</exceptions>
+    </counts>
+    <runTimeInMillis>137</runTimeInMillis>
+    <content>&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="FitNesseTraining.SetUp"&gt;.FitNesseTraining.SetUp&lt;/a&gt; &lt;a href="FitNesseTraining.SetUp?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;div class="contents"&gt;
+	&lt;b&gt;Contents:&lt;/b&gt;
+	&lt;ul class="toc1"/&gt;&lt;ul class="toc1"/&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;org.trafficlights.test.acceptance&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;given username _ and password _&lt;/td&gt;
+		&lt;td colspan="2"&gt;username,password&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;login with username&lt;/td&gt;
+		&lt;td&gt;@username&lt;/td&gt;
+		&lt;td&gt;and password&lt;/td&gt;
+		&lt;td&gt;@password&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;h3&gt;Script Table Example&lt;/h3&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;script&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;login dialog driver&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;Bob&lt;/td&gt;
+		&lt;td colspan="2"&gt;xyzzy&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="scenario closed"&gt;
+		&lt;td colspan="5" class="fail"&gt;given username Bob and password xyzzy&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="scenario-detail closed-detail"&gt;&lt;td colspan="5"&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;given username _ and password _&lt;/td&gt;
+		&lt;td colspan="2"&gt;username,password&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;span class="fail"&gt;login with username&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;Bob&lt;/td&gt;
+		&lt;td&gt;and password&lt;/td&gt;
+		&lt;td&gt;xyzzy&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;login message&lt;/td&gt;
+		&lt;td colspan="3"&gt;[something happened] &lt;span class="fail"&gt;expected [Bob logged in.]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;reject &lt;span class="error"&gt;Method givenUsernameBobAndPasswordBadPassword[0] not found in org.trafficlights.test.acceptance.LoginDialogDriver.&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="4"&gt;given username Bob and password bad password&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;login message&lt;/td&gt;
+		&lt;td colspan="3"&gt;[something happened] &lt;span class="fail"&gt;expected [Bob not logged in.]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;check not&lt;/td&gt;
+		&lt;td&gt;login message&lt;/td&gt;
+		&lt;td colspan="3"&gt;&lt;span class="pass"&gt;Bob logged in.&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;span class="fail"&gt;ensure&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;login with username&lt;/td&gt;
+		&lt;td&gt;Bob&lt;/td&gt;
+		&lt;td&gt;and password&lt;/td&gt;
+		&lt;td&gt;xyzzy&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;note&lt;/td&gt;
+		&lt;td colspan="4"&gt;this is a comment&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td colspan="4"&gt;number of login attempts&lt;/td&gt;
+	&lt;td&gt;Missing&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;$symbol&amp;lt;-[something happened]&lt;/td&gt;
+		&lt;td colspan="4"&gt;login message&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>ScriptTableExample</relativePageName>
+            <instructions>
+            <instructionResult>
+        <instruction>{id='import_0_0', instruction='import', path='org.trafficlights.test.acceptance'}</instruction>
+        <slimResult>pass(org.trafficlights.test.acceptance)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>import_0_0</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>ImportExpectation</type>
+                                        <evaluationMessage>org.trafficlights.test.acceptance</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_2_0', instruction='make', instanceName='scriptTableActor', className='LoginDialogDriver', args=[Bob, xyzzy]}</instruction>
+        <slimResult>pass(login dialog driver)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_2_0</instructionId>
+                    <col>1</col>
+                              <row>0</row>
+                    <type>ConstructionExpectation</type>
+                                        <evaluationMessage>login dialog driver</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_2_1/scriptTable_1_0', instruction='call', instanceName='scriptTableActor', methodName='loginWithUsernameAndPassword', args=[Bob, xyzzy]}</instruction>
+        <slimResult>fail()</slimResult>
+                <expectation>
+                    <status>fail</status>
+                    <instructionId>scriptTable_2_1/scriptTable_1_0</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_2_2', instruction='call', instanceName='scriptTableActor', methodName='loginMessage', args=[]}</instruction>
+        <slimResult>fail(a=something happened;e=Bob logged in.)</slimResult>
+                <expectation>
+                    <status>fail</status>
+                    <instructionId>scriptTable_2_2</instructionId>
+                    <col>2</col>
+                              <row>2</row>
+                    <type>ReturnedValueExpectation</type>
+                    <actual>something happened</actual>
+                              <expected>Bob logged in.</expected>
+                            </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_2_3', instruction='call', instanceName='scriptTableActor', methodName='givenUsernameBobAndPasswordBadPassword', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_2_3</instructionId>
+                              <type>RejectActionExpectation</type>
+                                        <evaluationMessage>Method givenUsernameBobAndPasswordBadPassword[0] not found in org.trafficlights.test.acceptance.LoginDialogDriver.</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_2_4', instruction='call', instanceName='scriptTableActor', methodName='loginMessage', args=[]}</instruction>
+        <slimResult>fail(a=something happened;e=Bob not logged in.)</slimResult>
+                <expectation>
+                    <status>fail</status>
+                    <instructionId>scriptTable_2_4</instructionId>
+                    <col>2</col>
+                              <row>4</row>
+                    <type>ReturnedValueExpectation</type>
+                    <actual>something happened</actual>
+                              <expected>Bob not logged in.</expected>
+                            </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_2_5', instruction='call', instanceName='scriptTableActor', methodName='loginMessage', args=[]}</instruction>
+        <slimResult>pass(a=something happened;e=Bob logged in.)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_2_5</instructionId>
+                    <col>2</col>
+                              <row>5</row>
+                    <type>RejectedValueExpectation</type>
+                    <actual>something happened</actual>
+                              <expected>Bob logged in.</expected>
+                            </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_2_6', instruction='call', instanceName='scriptTableActor', methodName='loginWithUsernameAndPassword', args=[Bob, xyzzy]}</instruction>
+        <slimResult>fail()</slimResult>
+                <expectation>
+                    <status>fail</status>
+                    <instructionId>scriptTable_2_6</instructionId>
+                    <col>0</col>
+                              <row>6</row>
+                    <type>EnsureActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_2_7', instruction='call', instanceName='scriptTableActor', methodName='numberOfLoginAttempts', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_2_7</instructionId>
+                    <col>0</col>
+                              <row>8</row>
+                    <type>ShowActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_2_8', instruction='callAndAssign', symbolName='symbol', instanceName='scriptTableActor', methodName='loginMessage', args=[]}</instruction>
+        <slimResult>$symbol&lt;-[something happened]</slimResult>
+                <expectation>
+                    <instructionId>scriptTable_2_8</instructionId>
+                    <col>0</col>
+                              <row>9</row>
+                    <type>SymbolAssignmentExpectation</type>
+                                        <evaluationMessage>$symbol&lt;-[something happened]</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+          </instructions>
+      </result>
+      <finalCounts>
+    <right>0</right>
+    <wrong>1</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>137</totalRunTimeInMillis>
+  
+</testResults>
+

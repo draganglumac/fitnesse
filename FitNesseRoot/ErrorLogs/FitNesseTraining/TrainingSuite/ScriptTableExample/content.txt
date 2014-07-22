@@ -1,0 +1,8 @@
+
+!3 !-slim:fitnesse.slim.SlimService-!
+|'''Date: '''| 11:30:13 AM (BST) on Tuesday, July 22, 2014 |
+|'''Test Page: '''|.FitNesseTraining.TrainingSuite.ScriptTableExample|
+|'''Command: '''| !-/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/bin/java -cp fitnesse-standalone.jar:classes fitnesse.slim.SlimService 8086-! |
+|'''Exit code: '''| 0 |
+|'''Time elapsed: '''| 0.396 seconds |
+

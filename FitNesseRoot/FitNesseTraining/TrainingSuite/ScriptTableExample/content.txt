@@ -1,0 +1,12 @@
+!3 Script Table Example
+
+|script   |login dialog driver|Bob     |xyzzy    |
+|valid login Bob : xyzzy                         |
+|check    |login message      |Bob logged in.    |
+|invalid login Bob : !-bad password-!            |
+|check    |login message      |Bob not logged in.|
+|check not|login message      |Bob logged in.    |
+|valid login Bob : xyzzy                         |
+|note     |this is a comment                     |
+|show     |number of login attempts              |
+|$symbol= |login message                         |

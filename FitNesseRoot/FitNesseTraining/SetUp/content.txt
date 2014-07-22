@@ -2,3 +2,9 @@
 
 !|Import                          |
 |org.trafficlights.test.acceptance|
+
+|scenario|valid login _ : _  |username,password               |
+|ensure  |login with username|@username|and password|@password|
+
+|scenario|invalid login _ : _|username,password               |
+|reject  |login with username|@username|and password|@password|
