@@ -1,0 +1,6 @@
+!3 Query table example
+
+|Query: employees hired before|10-Dec-1980                                     |
+|company number               |employee number|first name|last name|hire date  |
+|4808147                      |9942           |Bill      |Mitchell |19-Dec-1966|
+|4808147                      |1429           |Bob       |Martin   |10-Oct-1975|

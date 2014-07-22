@@ -1,0 +1,6 @@
+!path classes
+
+!| my decisions |
+| name | age | old? |
+| Dragan | 40 | yes |
+| Anju | 29 | no |

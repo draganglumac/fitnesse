@@ -1,0 +1,8 @@
+
+!3 !-fit:fit.FitServer-!
+|'''Date: '''| 4:36:12 PM (BST) on Thursday, July 3, 2014 |
+|'''Test Page: '''|.TestingSuite.BlahTest|
+|'''Command: '''| !-/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/bin/java -cp fitnesse-standalone.jar:defaultPath fit.FitServer Dragan-BSkyB-MacBook-Pro.local 64463 3863-! |
+|'''Exit code: '''| 1 |
+|'''Time elapsed: '''| 0.485 seconds |
+
